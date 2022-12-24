@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/*VARIAVEIS*/
+:root {
+    --text-color: #667085;
+    --main-color: #8e2424;
+}
+.navbar {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 80px;
+}
+
+.nav-content ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-content ul li a {
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    margin-left: 100px;
+}
+
+.button-entrar {
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 16px;
+    /* Gray/500 */
+    color: var(--text-color);
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-entrar:hover {
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 16px;
+    /* Gray/500 */
+    color: var(--main-color);
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-cadastrar {
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #FFFFFF;
+}
+
+.button-cadastrar:hover {
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 8px;
+    color: var(--text-color);
+    border: 1px solid var(--main-color);
+    transition: 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
