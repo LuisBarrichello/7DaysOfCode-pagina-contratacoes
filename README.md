@@ -16,6 +16,10 @@ O escopo do projeto é: OptimusTech quer desenvolver uma página destinada a nov
 
 ## HTML e CSS
 
-![Página Optimus Tech](/pagina-contratacoes/img/unnamed.gif "Página Optimus Tech")
+![Página Optimus Tech](/img/unnamed.gif "Página Optimus Tech")
 
 * [Figma](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1)
+
+## Deploy
+
+* [Deploy](https://luisbarrichello.github.io/7DaysOfCode-pagina-contratacoes/)
